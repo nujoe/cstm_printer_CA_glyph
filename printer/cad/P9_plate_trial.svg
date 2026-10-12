@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="690" viewBox="0 0 1000 690">
+  <title>P9 metal plate - trial drawing, not fabrication approval</title>
+  <rect width="1000" height="690" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#111">
+    <text x="55" y="44" font-size="24">P9 / PIPE-TO-2020 SUPPORT / TRIAL ONLY</text>
+    <text x="55" y="64" font-size="13">All dimensions in mm. NOT TO SCALE. Check the actual frame before fabrication.</text>
+    <rect id="metal-plate" x="100" y="100" width="300" height="250" fill="#eee" stroke="#111" stroke-width="2"/>
+    <rect x="100" y="250" width="300" height="100" fill="#dedede"/>
+    <rect x="100" y="175" width="300" height="75" fill="none" stroke="#555" stroke-dasharray="6 4"/>
+    <line x1="100" y1="300" x2="400" y2="300" stroke="#888" stroke-dasharray="3 4"/>
+    <line x1="100" y1="212.5" x2="400" y2="212.5" stroke="#888" stroke-dasharray="3 4"/>
+    <circle data-part="plate-hole" cx="175" cy="300" r="13.75" fill="white" stroke="#111" stroke-width="2"/>
+    <circle data-part="plate-hole" cx="325" cy="300" r="13.75" fill="white" stroke="#111" stroke-width="2"/>
+    <circle data-part="plate-hole" cx="250" cy="212.5" r="13.75" fill="white" stroke="#111" stroke-width="2"/>
+    <text x="110" y="337" font-size="14">2020 top / 20 wide</text>
+    <text x="110" y="167" font-size="14">15 square pipe / parallel to profile</text>
+    <g stroke="#111" stroke-width="1" fill="none">
+      <path d="M100 95 V86 H400 V95 M100 86 l7 -3 M100 86 l7 3 M400 86 l-7 -3 M400 86 l-7 3"/>
+      <path d="M92 100 H78 V350 H92 M78 100 l-3 7 M78 100 l3 7 M78 350 l-3 -7 M78 350 l3 -7"/>
+      <path d="M175 356 V375 H325 V356 M175 375 l7 -3 M175 375 l7 3 M325 375 l-7 -3 M325 375 l-7 3"/>
+      <path d="M408 212.5 H437 V300 H408 M437 212.5 l-3 7 M437 212.5 l3 7 M437 300 l-3 -7 M437 300 l3 -7"/>
+    </g>
+    <text x="237" y="82" font-size="14">60</text>
+    <text x="49" y="231" font-size="14">50</text>
+    <text x="235" y="397" font-size="14">30</text>
+    <text x="445" y="260" font-size="14">17.5</text>
+    <text x="520" y="123" font-size="19">Metal plate / 60 x 50 x 3 / qty 4 (trial)</text>
+    <text x="520" y="151" font-size="15">3 holes: diameter 5.5 for M5 clearance.</text>
+    <text x="520" y="177" font-size="15">Origin: profile centreline, midway between base holes.</text>
+    <text x="520" y="203" font-size="15">Base holes: (-15, 0), (+15, 0).</text>
+    <text x="520" y="229" font-size="15">Pipe hole: (0, +17.5), towards the frame interior.</text>
+    <text x="520" y="263" font-size="15">Do not 3D-print the load-bearing plate.</text>
+    <text x="520" y="291" font-size="15">The tube rests directly on metal, not on the printed cap.</text>
+    <text x="55" y="440" font-size="19">Assembly section / indicative only</text>
+    <g stroke="#111" stroke-width="2">
+      <path d="M150 470 H246 V502 H228.8 V482 H167.2 V502 H150 Z" fill="#d95b30"/>
+      <rect x="168" y="482" width="60" height="60" fill="#eee"/>
+      <rect x="174" y="488" width="48" height="48" fill="white"/>
+      <rect x="182" y="488" width="5" height="48" fill="#cfaa53"/>
+      <rect x="209" y="488" width="5" height="48" fill="#cfaa53"/>
+      <rect x="88" y="542" width="200" height="12" fill="#90999d"/>
+      <rect x="88" y="554" width="80" height="80" fill="#333"/>
+      <line x1="198" y1="463" x2="198" y2="581" stroke-width="3"/>
+    </g>
+    <text x="350" y="475" font-size="15">Orange: printed guide cap, 38 x 24 x 8.</text>
+    <text x="350" y="501" font-size="15">Pipe: 15 x 15, wall 1.5. Drill both walls, diameter 5.5.</text>
+    <text x="350" y="527" font-size="15">Gold: KNCLM5-8-12 / ID5.1..5.3 / length11.9..12.</text>
+    <text x="350" y="553" font-size="15">Grey: metal plate. Black: 2020 envelope (slot omitted).</text>
+    <text x="350" y="579" font-size="15">M5 through-bolt, washers, nut: check the actual stack.</text>
+    <text x="350" y="605" font-size="15">M5 T-nuts/slot depth and material strength are not approved.</text>
+    <text x="55" y="662" font-size="14">Prototype fit drawing only. No load test, print-tolerance test or final hardware selection has been performed.</text>
+  </g>
+</svg>

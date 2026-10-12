@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1430" viewBox="0 0 1280 1430">
+  <rect width="1280" height="1430" fill="white"/>
+  <style>text{font-family:Arial,sans-serif;fill:#202020;font-size:18px} .title{font-size:28px;font-weight:bold} .heading{font-size:22px;font-weight:bold} .small{font-size:16px} .line{stroke:#333;stroke-width:1.5;fill:none}</style>
+  <text x="55" y="48" class="title">Feed support: pipe / P2 / P3 nominal section</text>
+  <text x="55" y="78">297 mm paper / 440 mm pipe-frame outside width / dimensions in mm</text>
+  <text x="55" y="108" fill="#a82020">TRIAL DETAIL - NOT AN ORDER APPROVAL</text>
+  <text x="55" y="151" class="heading">A. M3 x 40 passes through P2 + pipe + P3</text>
+  <g id="bolt-section" transform="translate(150 245) scale(12 6)" stroke="#333" stroke-width="0.12">
+    <rect id="p2-base" x="0" y="-12" width="2" height="24" fill="#e8b1a1"/>
+    <rect id="pipe-envelope" x="2" y="-7.5" width="15" height="15" fill="#bfc6c9"/>
+    <rect id="pipe-void" x="3.5" y="-6" width="12" height="12" fill="white"/>
+    <rect id="p3-body" x="17" y="-12" width="15" height="24" fill="#8bc9bc"/>
+    <rect id="crush-sleeve" x="3.5" y="-3" width="12" height="6" fill="#dfcb77"/>
+    <rect x="-1" y="-3.5" width="1" height="7" fill="#aaa"/>
+    <rect x="32" y="-3.5" width="1" height="7" fill="#aaa"/>
+    <rect id="nut" x="33" y="-3" width="3" height="6" fill="#777"/>
+    <rect id="bolt-shank" x="-1" y="-1.5" width="40" height="3" fill="#444"/>
+    <rect x="-4" y="-3" width="3" height="6" fill="#444"/>
+  </g>
+  <text x="151" y="344">P2 2</text><text x="205" y="344">Pipe 15</text><text x="396" y="344">P3 15</text>
+  <text x="720" y="195">Bolt grip: 2 + 15 + 15 = 32</text>
+  <text x="720" y="227">Two washers: max. 2 total</text>
+  <text x="720" y="259">Metal nut: max. 3</text>
+  <text x="720" y="291">Thread beyond nut: 40 - 32 - 2 - 3 = 3</text>
+  <text x="720" y="323">Sleeve: OD6 / ID3.2 / length12</text>
+  <text x="55" y="392">P3 faces inward; its closed back rests on the pipe, NOT directly on the P2 base.</text>
+  <text x="55" y="422">Drill matching clearance holes. Insert sleeves from an open pipe end before closing the frame.</text>
+  <text x="55" y="452">Sleeve length must match the real inside width. Do not pull a gap closed by crushing the pipe.</text>
+  <line x1="55" y1="483" x2="1225" y2="483" class="line"/>
+  <text x="55" y="526" class="heading">B. Upper M10 rod / horizontal positions only</text>
+  <text x="55" y="556">P2 outer base faces at X = +/-222; pipe outer faces at +/-220</text>
+  <g id="rod-section" transform="translate(640 641) scale(2)" stroke="#333" stroke-width="0.5">
+    <rect x="-222" y="-25" width="2" height="55" fill="#e8b1a1"/>
+    <rect x="220" y="-25" width="2" height="55" fill="#e8b1a1"/>
+    <rect x="-220" y="-5" width="15" height="30" fill="#bfc6c9"/>
+    <rect x="205" y="-5" width="15" height="30" fill="#bfc6c9"/>
+    <rect x="-205" y="-15" width="15" height="40" fill="#8bc9bc"/>
+    <rect x="190" y="-15" width="15" height="40" fill="#8bc9bc"/>
+    <rect id="left-slot" x="-203" y="-7" width="13" height="24" fill="white"/>
+    <rect id="right-slot" x="190" y="-7" width="13" height="24" fill="white"/>
+    <rect id="upper-rod" x="-200" y="0" width="400" height="10" fill="#64717a"/>
+  </g>
+  <text x="480" y="715">Upper rod: nominal 400 long</text>
+  <text x="55" y="757">Each end: 3 clearance to closed back / 10 engagement in slot (nominal).</text>
+  <text x="55" y="787">495 cannot fit between these blind ends (406 apart). Measure the assembled gap before cutting.</text>
+  <line x1="55" y1="813" x2="1225" y2="813" class="line"/>
+  <g id="counts" data-supports="4" data-p3-bolts="8" data-p2-bolts="8" data-sleeves="16">
+    <text x="55" y="849">4 supports: P3 through-bolts 8 x M3x40; P2 cross-bolts 8 x M3x30; metal sleeves 16.</text>
+    <text x="55" y="879">This subset: M3 nuts 16 / washers 32. Bearing-cap fasteners are counted separately.</text>
+  </g>
+  <text x="55" y="923" class="small">P2 source: WorldPrinter.scad. P3 uses the raised guide below, not the original short part.</text>
+  <text x="55" y="950" class="small">Motor, gears, paper guides, manufacturing tolerances and strength are not verified by this section.</text>
+  <line x1="55" y1="978" x2="1225" y2="978" class="line"/>
+  <text x="55" y="1015" class="heading">C. Height integration: low frame / raised upper-roll guide</text>
+  <g id="feed-height" transform="translate(185 1370) scale(2.7 -2.7)"
+     data-pipe-centre-z="30.5" data-lower-rod-z="68.5" data-upper-rod-z="89.5"
+     data-covered-roller-radius="6" data-contact-bearing-radius="15"
+     data-guide-local-to-world-z="38.5" data-slot-start="35" data-slot-end="70">
+    <rect x="-45" y="0" width="20" height="20" fill="#bfc6c9" stroke="#333" stroke-width="0.5"/>
+    <rect x="-45" y="20" width="50" height="3" fill="#777"/>
+    <rect x="-15" y="23" width="15" height="15" fill="#bfc6c9" stroke="#333" stroke-width="0.5"/>
+    <rect x="0" y="21" width="15" height="87.5" fill="#8bc9bc" stroke="#333" stroke-width="0.5"/>
+    <rect x="2" y="73.5" width="13" height="35" fill="white" stroke="#333" stroke-width="0.4"/>
+    <circle cx="50" cy="68.5" r="6" fill="#555"/>
+    <circle cx="50" cy="89.5" r="15" fill="#bfc6c9" stroke="#333" stroke-width="0.5"/>
+    <circle cx="50" cy="89.5" r="5" fill="white" stroke="#333" stroke-width="0.5"/>
+    <path d="M2 89.5H50 M15 68.5H50 M25 74.5H82" fill="none" stroke="#333" stroke-width="0.7"/>
+  </g>
+  <text x="475" y="1065">Pipe centre Z30.5; P2 bearing offset +38: lower rod Z68.5.</text>
+  <text x="475" y="1097">Covered roller R6 + upper bearing R15: upper rod Z89.5.</text>
+  <text x="475" y="1129">Paper contact plane: Z74.5 (nominal; measure roller coating).</text>
+  <text x="475" y="1175">Raised P3: 87.5 high x25 wide x15 deep; blind back2.</text>
+  <text x="475" y="1207">Slot width10.2; local x35..70 opens upward.</text>
+  <text x="475" y="1239">Hole pattern and axial stack unchanged: M3x40, 2 per guide.</text>
+  <text x="475" y="1285">Original short P3 would end at Z56: do not use in this layout.</text>
+  <text x="475" y="1317">Print one guide for fit first. Do not clamp the floating rod.</text>
+  <text x="55" y="1405" class="small">Height sketch separates the end guide from the bearing contact position; not a full 3D collision/strength test.</text>
+</svg>

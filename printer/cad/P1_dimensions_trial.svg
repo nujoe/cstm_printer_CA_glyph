@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <title>P1 adjustable holder adapter - nominal fit trial</title>
+  <rect width="1000" height="1000" fill="white"/>
+  <g font-family="Arial, sans-serif" fill="#111">
+    <text x="45" y="42" font-size="24">P1 / GANTRY-TO-HOLDER ADAPTER / TRIAL ONLY</text>
+    <text x="45" y="67" font-size="14">All dimensions in mm. NOT TO SCALE. Printed part: 60 wide x 40 deep x 75 high.</text>
+    <text x="70" y="116" font-size="18">Back / gantry side</text>
+    <text x="500" y="116" font-size="18">Front / Q2299A mounting reference</text>
+    <rect x="70" y="95" width="300" height="375" transform="translate(0,50)" fill="#eee" stroke="#111" stroke-width="2"/>
+    <rect x="500" y="170" width="300" height="300" fill="#eee" stroke="#111" stroke-width="2"/>
+    <g transform="translate(0,50)">
+      <rect data-part="back-slot" x="106.25" y="156.25" width="27.5" height="252.5" rx="13.75" fill="white" stroke="#111"/>
+      <rect data-part="back-slot" x="206.25" y="156.25" width="27.5" height="252.5" rx="13.75" fill="white" stroke="#111"/>
+      <rect data-part="back-slot" x="306.25" y="156.25" width="27.5" height="252.5" rx="13.75" fill="white" stroke="#111"/>
+    </g>
+    <rect data-part="holder-slot" x="591.5" y="335.25" width="17" height="77" rx="8.5" fill="white" stroke="#111"/>
+    <rect data-part="holder-slot" x="691.5" y="335.25" width="17" height="77" rx="8.5" fill="white" stroke="#111"/>
+    <rect data-part="holder-slot" x="591.5" y="227.75" width="17" height="77" rx="8.5" fill="white" stroke="#111"/>
+    <rect data-part="holder-slot" x="691.5" y="227.75" width="17" height="77" rx="8.5" fill="white" stroke="#111"/>
+    <g stroke="#111" fill="none">
+      <path d="M70 534 V552 H370 V534 M500 484 V500 H800 V484"/>
+      <path d="M120 540 V580 H220 V540 M220 580 H320 V540"/>
+      <path d="M600 485 V528 H700 V485"/>
+      <path d="M818 266.25 H845 V373.75 H818"/>
+    </g>
+    <text x="208" y="571" font-size="14">60</text>
+    <text x="155" y="600" font-size="14">20</text>
+    <text x="255" y="600" font-size="14">20</text>
+    <text x="638" y="520" font-size="14">60</text>
+    <text x="638" y="549" font-size="14">20</text>
+    <text x="852" y="325" font-size="14">21.5</text>
+    <text x="45" y="631" font-size="15">Back: M5 slots width5.5, straight travel45, overall50.5. Centres X=-20/0/+20, Z=37.5.</text>
+    <text x="45" y="656" font-size="15">Front: M3 slots width3.4, straight travel12, overall15.4. Centres X=+/-10, Z=19.25/40.75.</text>
+    <text x="45" y="689" font-size="18">Centre section / paper and nozzle heights are NOT fixed</text>
+    <g stroke="#111" stroke-width="2">
+      <rect x="104" y="720" width="12" height="220" fill="#34434a"/>
+      <rect x="116" y="805" width="60" height="16" fill="#909da4"/>
+      <rect x="176" y="705" width="20" height="250" fill="#dc683d"/>
+      <rect x="316" y="755" width="20" height="200" fill="#dc683d"/>
+      <line x1="196" y1="955" x2="316" y2="955" stroke="#777" stroke-dasharray="5 5"/>
+    </g>
+    <text x="362" y="742" font-size="15">Dark: gantry reference, thickness3. Wheels/belt not modelled.</text>
+    <text x="362" y="773" font-size="15">Metal: M5 female-female standoff, length15, hex SW8.</text>
+    <text x="362" y="804" font-size="15">Orange: back/front walls5, side walls4. Internal depth30.</text>
+    <text x="362" y="835" font-size="15">Open channel52 wide: no shelf beneath the nozzle.</text>
+    <text x="362" y="866" font-size="15">M5 front bolt12 / back bolt10, each with a nominal1mm washer.</text>
+    <text x="362" y="897" font-size="15">Example thread engagement6 +6 &lt; standoff length15.</text>
+    <text x="362" y="928" font-size="15">Actual holder body, FFC routing and fastener interference unverified.</text>
+    <text x="45" y="985" font-size="14">Fit trial only. Do not approve all printing or machining from this drawing alone.</text>
+  </g>
+</svg>
